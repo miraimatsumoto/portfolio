@@ -290,7 +290,7 @@ li {
 }
 
 /*--------------------------------
- ZINE
+ zin
 ---------------------------------*/
 
 #zine .card {
@@ -307,10 +307,9 @@ li {
 #zine .card:nth-child(3n+1):nth-last-child(-n+3),
 #zine .card:nth-child(3n+1):nth-last-child(-n+3)~div {
   margin-bottom: 0;
-}
-
+}　　
 /*--------------------------------
- OTHERWORKS
+ otherworks
 ---------------------------------*/
 
 #otherworks .card {
@@ -328,6 +327,7 @@ li {
 #otherworks .card:nth-child(3n+1):nth-last-child(-n+3)~div {
   margin-bottom: 0;
 }
+
 
 /*--------------------------------
  FEATURE
@@ -382,15 +382,19 @@ li {
   flex-basis: 62%;
 }
 
+
+/*------------コピペ差し替え範囲ここから↓---------------*/
+
 /*--------------------------------
  SKILL
 ---------------------------------*/
 
 #skill .card-wrapper {
+  margin-top: 100px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 #skill .card {
@@ -402,11 +406,13 @@ li {
 }
 
 #skill .skill-icon {
-  flex-basis: 60px;
+  flex-basis: 20%;
+  margin-bottom: 10px;
+  object-fit: cover;
 }
 
 #skill .skill-desc {
-  flex-basis: calc(100% - 60px - 30px);
+  flex-basis: calc(100% - 20% - 30px);
 }
 
 #skill .skill-desc-title {
@@ -462,6 +468,9 @@ li {
 #skill .rate5:after {
   width: 100px;
 }
+
+/*------------コピペ差し替え範囲ここまで↑---------------*/
+
 
 /*--------------------------------
  CONTACT
