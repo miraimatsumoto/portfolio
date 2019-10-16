@@ -290,7 +290,7 @@ li {
 }
 
 /*--------------------------------
- zin
+ ZINE
 ---------------------------------*/
 
 #zine .card {
@@ -307,9 +307,10 @@ li {
 #zine .card:nth-child(3n+1):nth-last-child(-n+3),
 #zine .card:nth-child(3n+1):nth-last-child(-n+3)~div {
   margin-bottom: 0;
-}　　
+}
+
 /*--------------------------------
- otherworks
+ OTHERWORKS
 ---------------------------------*/
 
 #otherworks .card {
@@ -327,7 +328,6 @@ li {
 #otherworks .card:nth-child(3n+1):nth-last-child(-n+3)~div {
   margin-bottom: 0;
 }
-
 
 /*--------------------------------
  FEATURE
@@ -381,7 +381,6 @@ li {
 #about .section-desc {
   flex-basis: 62%;
 }
-
 
 /*------------コピペ差し替え範囲ここから↓---------------*/
 
@@ -470,8 +469,6 @@ li {
 }
 
 /*------------コピペ差し替え範囲ここまで↑---------------*/
-
-
 /*--------------------------------
  CONTACT
 ---------------------------------*/
